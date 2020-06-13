@@ -1,0 +1,24 @@
+<view class="singCont">
+  <view class="singTit">{{playSingName}}</view>
+  <view class="corePanel">
+    <image src="../../images/my.jpg" model:style="transform: rotate({{rotateDeg}}deg);"></image>
+  </view>
+
+  <view class="section section_gap">
+      <view class="body-view">
+          <slider bindchange="slider4change" selected-color="#ffb884" max="{{allTime}}" bindchange="sliderChange" value="{{silderVal}}"/>
+      </view>
+      <view class="timeData">
+        <text>{{cTime}}</text>
+        <text>{{aTime}}</text>
+      </view>
+  </view>
+
+
+  <view class="controlPanel">
+    <image src="../../images/playleft.png" bindtap="changeSing"></image>
+    <image model:src="{{ playStatus ? stopUrl : playUrl}}" bindtap="playStop"></image>
+    <image src="../../images/playright.png" bindtap="changeSing"></image>
+  </view>
+  <audio id="myAudio" src="{{playSingUrl}}" bindtimeupdate="timeChange" bindended="changeSing"></audio>
+</view>

@@ -1,0 +1,27 @@
+page{
+  background-color: #f3815f;
+}
+.indexCont{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.icons{
+  width: 500rpx;
+  height: 500rpx;
+  margin-top: 100rpx;
+}
+.welcome{
+  color: #fff;
+  font-size: 48rpx;
+  text-shadow: 10rpx 10rpx 10rpx rgba(0, 0, 0, 0.4);
+}
+.enterSing{
+  width: 600rpx;
+  height: 100rpx;
+  line-height: 100rpx;
+  border: none;
+  padding: 0;
+  box-shadow: 10rpx 10rpx 10rpx rgba(0, 0, 0, 0.1);
+  margin-top: 150rpx;
+}

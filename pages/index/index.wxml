@@ -1,0 +1,6 @@
+
+<view class="indexCont">
+  <image src="../../images/hs.png" class="icons"></image>
+  <text class="welcome">小马歌Mini</text>
+  <button class="enterSing" bindtap="jumpToSing">随缘听歌~</button>
+</view>

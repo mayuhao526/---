@@ -1,0 +1,60 @@
+page{
+  background-color: #f3815f;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.singTit{
+  font-size: 48rpx;
+  font-weight: bold;
+  text-align: center;
+  padding-top: 50rpx;
+  color: #fff;
+  text-shadow: 10rpx 10rpx 10rpx rgba(0, 0, 0, 0.5);
+}
+.corePanel{
+  width: 600rpx;
+  height: 600rpx;
+  margin: 50rpx 100rpx 50rpx 100rpx;
+  background-color: #000;
+  border-radius: 300rpx;
+  box-shadow: 20rpx 20rpx 20rpx rgba(0, 0, 0, 0.5);
+}
+.corePanel image{
+  width: 500rpx;
+  height: 500rpx;
+  border-radius: 250rpx;
+  position: relative;
+  top: 50rpx;
+  left: 50rpx;
+  
+}
+.controlPanel{
+  display: flex;
+  justify-content: center;
+  margin-top: 50rpx;
+}
+.controlPanel image{
+  width: 100rpx;
+  height: 100rpx;
+  margin: 50rpx;
+}
+
+slider{
+  width: 600rpx;
+  margin: 0 auto;
+}
+
+.timeData{
+  width: 600rpx;
+  display: flex;
+  justify-content: space-between;
+  margin:20rpx auto;
+
+}
+.timeData text{
+  font-size: 32rpx;
+  font-weight: bold;
+  text-shadow:4rpx 4rpx 4rpx rgba(0, 0, 0, 0.1);
+  color: #333;
+}
